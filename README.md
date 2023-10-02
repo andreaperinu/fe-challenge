@@ -13,7 +13,8 @@ Clicking on a breed will display random dog image from the breed.
 Feel free to customize and design the page the way you want
 
 ## BACK END
-You need to interact with this public API to get all the data https://dog.ceo/dog-api
+You need to interact with this public API to get all the data https://dog.ceo/dog-api.
+There are multiple endpoints on this site, feel free to integrate them.
 
 ## FRONT END 
 Please for the front end use Typescript with React.JS.
@@ -22,8 +23,10 @@ Feel free to use any modern tool
 ### IMPORTANT:
 - No Boilerplate (you can use create-react-app)
 - ES6 is mandatory
+- Do not overuse external libraries
 
 ## EVALUATION
+The exercise is pretty straightforward. We expect you to customize it and write code on your own in order to show us your real skills and code cleanliness.
 We are not evaluating the perfectness of every piece but tests are expected, as is well written, simple idiomatic code.
 You have to provide us something working and self contained, but at the same time we’d like you to think about:
 - Test
