@@ -7,14 +7,18 @@ Also, don’t forget to read the "assignment evaluation criteria" paragraph, tha
 If you have any questions don’t be afraid to contact us.
 
 ## ASSIGNMENT
-Your task is to create a dashboard that can be used internally to show random images of dogs selected by breed.
-The dashboard is composed by a list of breeds.
-Clicking on a breed will display random dog image from the breed.
+Your task is to create a dashboard that can be used internally to show images of dogs selected by:
+
+- Random image by breed
+- Images list by breed
+- Random image by breed and sub breed
+- Images list by breed and sub breed
+
 Feel free to customize and design the page the way you want
 
 ## BACK END
 You need to interact with this public API to get all the data https://dog.ceo/dog-api.
-There are multiple endpoints on this site, feel free to integrate them.
+This wesbite exposes multiple endpoints.
 
 ## FRONT END 
 Please for the front end use Typescript with React.JS.
@@ -24,11 +28,13 @@ Feel free to use any modern tool
 - No Boilerplate (you can use create-react-app)
 - ES6 is mandatory
 - Do not overuse external libraries
+- Please use typescript "good parts". E.g. don't use for, forEach, callback hells and use less ifs as possible.
 
 ## EVALUATION
-The exercise is pretty straightforward. We expect you to customize it and write code on your own in order to show us your real skills and code cleanliness.
-We are not evaluating the perfectness of every piece but tests are expected, as is well written, simple idiomatic code.
+We expect you to customize the exercise and write code on your own in order to show us your real skills and code cleanliness. We are not evaluating the perfectness of every piece but we expect a well written, quality product with simple, idiomatic code.
+End to end tests are required. Cover at least a typical user flow run using e2e tests (I click on a button, the image of that dog of that breed appears). Bonus if you add unit tests also.
 You have to provide us something working and self contained, but at the same time we’d like you to think about:
+
 - Test
 - Architecture
 - Code quality
